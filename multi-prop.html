@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Example: Position</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        div {
+            height: 50%;
+            width: 50%;
+            margin: 10px;
+        }
+
+        #box6 {
+            color: black;
+            background-color: white;
+            border: 5px solid #4284F4;
+            transition-property: color, background-color, border-color;
+            transition-duration: 3s;
+        }
+
+        #box6:hover {
+            color: white;
+            background-color: black;
+            border-color: #FFAB40;
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box6"> Fun with CSS Transitions</div>
+
+</body>
+
+</html>
